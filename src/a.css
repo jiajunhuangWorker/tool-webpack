@@ -1,0 +1,8 @@
+@font-face{
+	font-family:'webpackFont';
+	src:url('./SourceHanSansCN-Regular.otf');
+}
+body{
+	background:#f40 url('../img/pic.png') no-repeat;
+	font-family:'webpackFont';
+}

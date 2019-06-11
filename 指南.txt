@@ -1,0 +1,33 @@
+1-install node.js
+2--install淘宝镜像
+3---install webpack
+4----builde file catalog(建立目录文件)
+5-----npm package.json(创建node_modules)
+6------builde webpack.config.js
+
+
+
+npm
+1.npm list --depth=0 	查看npm 里面还存在什么包
+-1.1npm ls --depth 0
+2.npm link webpack		npm link webpack-cli 查看webpack安装到什么位置pah
+3.npm install 		install package包
+-3.1npm install --devDependencies devDependencies（开发依赖）文件
+-3.2npm install --dependencies			(运行依赖）文件
+4.
+-4.1--save-dev:工程构建（开发时、“打包”时）依赖 ；例：xxx-cli , less-loader , babel-loader
+-4.2--save:项目（运行时、发布到生产环境时）依赖；例：antd , element,react...
+5.npm install -g npm-check-updates 更新依赖包到最新版本
+
+
+
+
+
+webpack那些坑
+2.Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
+3.运行webpack --mode development
+
+
+dos
+监听端口
+netstat -ano |findstr 端口号
